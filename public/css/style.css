@@ -1,0 +1,21 @@
+body{
+background-color: #000000;	
+}
+.site
+{
+	background-color: white;
+	 max-width: 1180px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 2%;
+    padding-left: 2%;
+    min-height: 650px;
+}
+.menu_top
+{
+	width:100%;
+	background-color: #166ad8;  
+	color:white;
+}
+a
+{color:white;}
