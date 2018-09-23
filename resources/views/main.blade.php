@@ -22,7 +22,7 @@
       <div class='menu_top'>
         <nav class="nav">
           <a class="nav-link" href="">Home</a>
-          <a class="nav-link " href="about">Simple Blog</a>
+          <a class="nav-link " href="blog">Simple Blog</a>
         </nav>
       </div>
     

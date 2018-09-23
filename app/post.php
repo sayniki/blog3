@@ -31,4 +31,9 @@ class Post extends Model
 		$post->delete();
 		return 1;
 	}
+	public function showPost($id)
+	{
+		$post = $this::find($id);
+		return $post;
+	}
 }

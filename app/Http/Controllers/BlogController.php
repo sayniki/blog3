@@ -9,9 +9,9 @@ class BlogController extends Controller
 	public function showBlogContent($id)
 	{
 		$PageTitle="Edit Post";
-		$post3 = Post::where('id', $id)
-                        ->first();
-		return view('pages.blogPost')->withData(array('pagetitle'=>$PageTitle,'data'=>$post3,'success'=>$success));
+		$post = new post();
+		$post->showPost($id);
+		return view('pages.single_post')->withData(array('pagetitle'=>$PageTitle,'data2'=>$post,'success'=>$success));
 	}
     public function blogEdit($id,$success='')
 	{
